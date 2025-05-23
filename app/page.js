@@ -18,7 +18,7 @@ export default function Home() {
           <li><Link href="/workspace/billing">Courses</Link></li>
           <li><Link href="/workspace/profile">Testimonials</Link></li>
         </ul>
-        <Link href="/get-started">
+        <Link href="/workspace">
           <button className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg font-semibold">
             Get Started
           </button>
@@ -35,12 +35,16 @@ export default function Home() {
             AI Learn Hub offers personalized courses, intelligent tutors, and adaptive content to help you master new skills faster and more effectively. 🚀
           </p>
           <div className="mt-6 flex gap-4">
+            <Link href="/workspace">
             <button className="bg-indigo-600 hover:bg-indigo-700 px-6 py-3 text-white font-semibold rounded-lg">
               Explore Courses →
-            </button>
-            <button className="bg-gray-700 hover:bg-gray-600 px-6 py-3 text-white font-semibold rounded-lg">
-              How it Works 🧠
-            </button>
+            </button></Link>
+            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+  <button className="bg-gray-700 hover:bg-gray-600 px-6 py-3 text-white font-semibold rounded-lg">
+    How it Works 🧠
+  </button>
+</a>
+
           </div>
         </div>
         <div className="mt-10 md:mt-0">
