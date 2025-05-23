@@ -36,11 +36,6 @@ function AppSidebar() {
             path:'/workspace/explore'
         },
         {
-            title:'Ai Tools',
-            icon:PencilLineIcon,
-            path:'/workspace/ai-tools'
-        },
-        {
             title:'Billing',
             icon:WalletCards,
             path:'/workspace/billing'

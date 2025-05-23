@@ -39,7 +39,7 @@ export default function Home() {
             <button className="bg-indigo-600 hover:bg-indigo-700 px-6 py-3 text-white font-semibold rounded-lg">
               Explore Courses →
             </button></Link>
-            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank" rel="noopener noreferrer">
   <button className="bg-gray-700 hover:bg-gray-600 px-6 py-3 text-white font-semibold rounded-lg">
     How it Works 🧠
   </button>
